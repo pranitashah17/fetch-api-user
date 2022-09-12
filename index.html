@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content=""ir=edge>
+        <title>Forms</title>
+        <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+        <!-- <script>
+            </script> -->
+    </head>
+    <body>
+        <div>
+        <h2>Fetch API-Sending form <datagrid></datagrid></h2>
+        <form action="https://jsonplaceholder.typicode.com/users" method="POST">
+            <label>
+                <div>
+                    Id: <input type="number" name="id" id="id" placeholder="id">
+                </div>
+            <label>
+                <div>
+                    Name: <input type="text" name="name" id="myName" placeholder="John Doe">
+                </div>
+            </label>
+            <label>
+                <div>
+                    Username: <input type="text" name="username" id="username" placeholder="john">
+                </div>
+            </label>
+            <label>
+                <div>
+                    Email: <input type="email" name="email" id="email" placeholder="john@gmail.com">
+                </div>
+            </label>
+            <label>
+                <div>
+                    Address: 
+                            <div>
+                                Street <input type="text" id="street" name="street">
+                            </div>
+                            <div>
+                                Suite <input type="text" name="suite" id="suite">
+                            </div>
+                            <div>
+                                City <input type="text" name="city" id="city">
+                            </div>
+                            <div>
+                                Zipcode <input type="number" name="zipcode" id="zipcode">
+                            </div>
+                            <div>
+                                Gio: 
+                                <diV>
+                                    Latitude <input type="number" name="lat " id="lat">
+                                </diV>
+                                <diV>
+                                    Longitude <input type="number" name="lng" id="lng">
+                                </diV>
+                        </div>
+                </div>
+            </label>
+            <label>
+                <div>
+                    Phone: <input type="number" name="phone" id="phone">
+                </div>
+            </label>
+            <label>
+                <div>
+                    website: <input type="url" name="website" id="website">
+                </div>
+            </label>
+            <label>
+                <div>
+                    Company: 
+                    <label><div>
+                        Name: <input type="text" name="name" id="comName">
+                    </div>
+                    <div>
+                        Chatchphrase: <input type="text" name="chatchphrase" id="catchphrase">
+                    </div>
+                    <div>
+                        Bs: <input type="text" name="bs" id="bs">
+                    </label></div>
+                
+                </div>
+            </label>
+            <div>
+                <input type="reset" value="Reset">
+            </div>
+            <input type="submit" name="submit" value="Submit"/>
+        </form>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
+
+<!-- <form action="https://jsonplaceholder.typicode.com/users" method="POST">
+    <div>
+      <label for="say">What greeting do you want to say?</label>
+      <input name="say" id="say" value="Hi">
+    </div>
+    <div>
+      <label for="to">Who do you want to say it to?</label>
+      <input name="to" id="to" value="Mom">
+    </div>
+    <div>
+      <button>Send my greetings</button>
+    </div>
+  </form> -->
